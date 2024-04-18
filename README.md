@@ -28,4 +28,7 @@ Assets Used:
  - StackOverflow.com
 
 # Created by: Team 8
-Levi Coffing, Cass Hersman, Eric Lasse, Elikem Bleah
+Levi Coffing - Lead Programmer, 3D-Modeller, Texture Artist
+Cass Hersman - Secondary Programmer, Musician, Sound Effects Guy 
+Eric Lasse - Primary Writer 
+Elikem Bleah - Secondary Programmer
