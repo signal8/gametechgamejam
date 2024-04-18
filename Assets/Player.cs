@@ -5,6 +5,8 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
 	public GameObject pa;
+	public float shrinkDuration = 0.5f;
+	public float shrinkFactor = 0.9f;
 
 	void Update()
 	{
@@ -30,5 +32,10 @@ public class Player : MonoBehaviour
 
 		Gizmos.color = Color.red;
 		Gizmos.DrawLine(transform.position, tmp);
+	}
+
+	public void Shrink()
+	{
+		transform.localScale *= shrinkFactor;
 	}
 }
