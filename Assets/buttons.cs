@@ -6,11 +6,13 @@ public class buttons : MonoBehaviour
 {
 	private AudioSource sound;
 	private MeshRenderer mr;
+	private BoxCollider bc;
 	private bool collected = false;
 	void Start()
 	{
 		sound = GetComponent<AudioSource>();
 		mr = GetComponent<MeshRenderer>();
+		bc = GetComponent<BoxCollider>();
 	}
 
 	void Update()
@@ -29,6 +31,7 @@ public class buttons : MonoBehaviour
 	    sound.Play();
         	collected = true;
 		mr.enabled = false;
+		bc.enabled = false;
         }
     }
 }
